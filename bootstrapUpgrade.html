@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+	<head>
+		<meta charset = "UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width = device-width, initial-scale = 1">
+		
+		<title>Website with Bootstrap Upgrade</title>
+		
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+		<style>
+			.jumbotron {
+				background-color:#2E2D88;
+				color:white;
+			}
+		
+			<!--Adds borders for tabs -->
+			.tab-content {
+				border-left: 1px solid #ddd;
+				border-right: 1px solid #ddd;
+				border-bottom: 1px solid #ddd;
+				padding: 10px;
+			}
+			
+			.nav-tabs  {
+				margin-bottom: 0;
+			}
+		</style>
+	</head>
+	
+	<body data-spy="scroll" 
+		data-target=".navbar-default"
+		data-offset="50">
+
+		<header>
+			<nav class="navbar navbar-default" 
+				 data-offset-top="550"
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="#">N.C. Wood Practice Website</a>
+					</div>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="http://fortwoodpublishing.com">About</a></li>
+						<li><a href="https://github.com/NCWood">GitHub</a></li>
+						<li><a href="#archive">Archive</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+	
+		<div class="container">
+		
+			<div class="page-header">
+			<h1>Bootstrap Upgrade</h1>
+			</div>
+			
+			<div class="jumbotron">
+				<p>Bootstrap is a free and open-source front-end web framework for designing websites and web applications. 
+				It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other 
+				interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns 
+				itself with front-end development only.<br> (All text on this page copied from Wikipedia)</p>
+				<h3>Bootstrap button types:</h3>
+				<p>
+					<a href="#" class="btn btn-default btn-lg" role="button">More Info</a>
+					
+					<button type="submit" class="btn btn-danger" role="button">Button</button>
+					<input type="button" value="Info" class="btn btn-info">
+					<button type="submit" class = "btn-primary btn-sm">Primary</button>
+					<button type="submit" class = "btn btn-success btn-xs">Success</button>
+					<button type="submit" class = "btn btn-warning btn-lg">Warning</button>
+					<button type="submit" class = "btn btn-link btn-lg">Link</button>
+					
+					<button type="button" class="btn btn-lg btn-primary" disabled="disabled">Primary</button>
+					
+					<a href="#" class="btn btn-default btn-lg disabled" role="button">Link</a>
+					
+					<div class="btn-group btn-group-lg" role="group">
+					
+						<button type="button" class="btn btn-default">Left</button>
+						<button type="button" class="btn btn-default">Center</button>
+						<button type="button" class="btn btn-default">Right</button>
+						
+					</div>
+				
+				</p>
+				
+			</div><!--jumbotron-->
+			
+			 <div class="row">
+				<section class="col-sm-12">
+
+					<h2>JavaScript</h2>
+
+					<p>JavaScript is a high-level, dynamic, untyped, and interpreted programming language. 
+					It has been standardized in the ECMAScript language specification. Alongside HTML and CSS, 
+					it is one of the three core technologies of World Wide Web content production; the majority of 
+					websites employ it and it is supported by all modern Web browsers without plug-ins. 
+					JavaScript is prototype-based with first-class functions, making it a multi-paradigm language, 
+					supporting object-oriented, imperative, and functional programming styles. 
+					It has an API for working with text, arrays, dates and regular expressions, but does not include any I/O, 
+					such as networking, storage, or graphics facilities, relying for these upon the host 
+					environment in which it is embedded.</p>
+
+					<button type="button" class="btn btn-warning"
+					data-toggle="modal" data-target="#policy">About jQuery</button>
+		
+					<div class="modal fade" id="policy" tabindex="-1" role="dialog"
+						aria-labelledby="modalLabel">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close"
+										data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<h3 class="modal-title" id="modalLabel">jQuery</h3>
+								</div> <!-- modal-header -->
+								<div class="modal-body">
+										<p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.
+										jQuery is the most popular JavaScript library in use today, with installation on 65% of the top 10 million 
+										highest-trafficked sites on the Web.
+										jQuery is free, open-source software licensed under the MIT License.</p>
+								</div> <!-- modal-body -->
+								<div class="modal-footer">
+									<button type="button" data-dismiss="modal"
+									class="btn btn-default">	
+									Close
+									</button>
+								</div> <!-- modal-footer -->
+							</div> <!-- modal-content -->
+						</div> <!-- modal-dialog -->
+		
+					</div> <!-- modal -->
+
+		
+
+	</section>
+  </div><!-- row -->   
+			
+			<div class="row">
+			
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h4>Column 1</h4>
+						Although there are strong outward similarities between JavaScript and Java, 
+						including language name, syntax, and respective standard libraries, 
+						the two are distinct languages and differ greatly in their design. 
+						JavaScript was influenced by programming languages such as Self and Scheme.			
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h4>Column 2</h4>
+						Although there are strong outward similarities between JavaScript and Java, 
+						including language name, syntax, and respective standard libraries, 
+						the two are distinct languages and differ greatly in their design. 
+						JavaScript was influenced by programming languages such as Self and Scheme.
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h4>Column 3</h4>
+						Although there are strong outward similarities between JavaScript and Java, 
+						including language name, syntax, and respective standard libraries, 
+						the two are distinct languages and differ greatly in their design. 
+						JavaScript was influenced by programming languages such as Self and Scheme.			
+				</div>
+				
+				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+					<h4>Column 4</h4>
+						Although there are strong outward similarities between JavaScript and Java, 
+						including language name, syntax, and respective standard libraries, 
+						the two are distinct languages and differ greatly in their design. 
+						JavaScript was influenced by programming languages such as Self and Scheme.				
+				</div>
+			
+			</div><!--row-->
+			
+			<div class="row">
+				
+					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
+						
+						<h4><a href="#col1Content" data-toggle="collapse">Column 1</a></h4>
+						
+							<div id="col1Content" class="collapse in">Netscape introduced an implementation of the language for server-side 
+							scripting with Netscape Enterprise Server in December 1995, soon after releasing JavaScript for browsers. 
+							Since the mid-2000s, there has been a resurgence of server-side JavaScript implementations, 
+							such as Node.js. and MarkLogic.</div>
+									
+					</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-8 col-xs-12">
+						
+						<h4><a href="#col2Content" data-toggle="collapse">Column 2</a></h4>
+						
+							<div id="col2Content" class="collapse">Netscape introduced an implementation of the language for server-side 
+							scripting with Netscape Enterprise Server in December 1995, soon after releasing JavaScript for browsers. 
+							Since the mid-2000s, there has been a resurgence of server-side JavaScript implementations, 
+							such as Node.js. and MarkLogic.</div>
+					
+					</div>
+					
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						
+						<h4><a href="#col3Content" data-toggle="collapse">Column 3</a></h4>
+						
+							<div id="col3Content" class="collapse">Netscape introduced an implementation of the language for server-side 
+							scripting with Netscape Enterprise Server in December 1995, soon after releasing JavaScript for browsers. 
+							Since the mid-2000s, there has been a resurgence of server-side JavaScript implementations, 
+							such as Node.js. and MarkLogic.</div>
+					
+					
+					</div>
+					
+			</div><!--row-->
+					
+				<div class="hidingScreen">
+					
+					<div class="well hidden-sm hidden-md hidden-lg">
+						<h3>This div is visible when...</h3>
+						<p>Screen &lt; 768px</p>
+					</div>
+					
+					<div class="well hidden-md hidden-lg">
+						<h3>This div is visible when...</h3>
+						<p>Screen &gt;= 768px and &lt; 992px</p>
+					</div>
+					
+					<div class="well hidden-lg">	
+						<h3>This div is visible when...</h3>
+						<p>Screen &gt;= 992px and &lt; 1200px</p>
+					</div>
+					
+					<div class="well">
+						<h3>This div is visible when...</h3>
+						<p>Screen &gt; 1200px</p>
+					</div>
+						
+				</div><!--hiding screen-->
+				
+				
+					
+						
+					
+			
+		
+		</div><!--container-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	</body>
+	
+</html>
+		
